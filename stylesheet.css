@@ -1,38 +1,79 @@
 
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: "Avenir Next";
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 li {
-    list-style: none;
-    /*float: left; 
-    padding: 33px 20px;*/
+  list-style: none;
 }
 
+/* ここからCSSを記述してください */
 .header {
-    background-color: #f7f2b4;
-    height: 90px;
-
+  background-color:#26d0c9;
+  height:90px;
 }
 
 .header-logo {
-    font-size: 30px;
-    float: left;
-    padding: 20px 40px;
+  font-size:36px;
+  float:left;
+  padding-left:40px;
+  padding-top:20px;
+  color:#fff;
 }
 
 .header-list li{
-    float: left;
-    padding: 33px 20px; /*前のが上下，後ろのが左右 */
-  }
-  
-.main {
-    background-color: #bdf7f1;
-    height: 600px;
+  font-size:16px;
+  float:left;
+  padding-left:45px;
+  padding-top:33px;
+  color:#fff;
 }
 
-.footer {
-    background-color: #ceccf3;
-    height: 270px;
+.container h1{
+  font-size: 140px;
+  background-color:white;
+  padding-top:100px;
+  padding-left:80px;
+  white-space: nowrap;
 }
+
+.container span {
+  color:#ff4a4a;
+}
+
+.container h2 {
+  font-size:60px;
+  margin-left:80px;
+}
+
+.section-title{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  margin:80px;
+  padding-bottom:15px;
+ }
+ 
+ .contents{
+   height:500px;
+ }
+ 
+ .contents-item{
+  float:left;
+  /*margin-right:40px;*/
+  padding-left:80px;
+  
+ }
+ 
+ .contents-item p{
+   font-size:24px;
+   padding-top:30px;
+   white-space: nowrap;
+ }
